@@ -6,7 +6,7 @@ const CustomButton = ({children, isGoogleSignIn, handleChange,googleSignIn,inver
     <button className={
         `${inverted ? 'inverted' : ''} 
         ${isGoogleSignIn ? 'google-sign-in' : ''} custom-button`} onChange={handleChange} name={name}
-    type={type} value={value} required={required} onClick={googleSignIn, addItemToCart}>
+    type={type} value={value} required={required} onClick={googleSignIn ? googleSignIn : addItemToCart}>
         {children}
     </button>
 )
