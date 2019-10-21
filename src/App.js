@@ -62,7 +62,7 @@ import {selectCurrentUser} from './redux/user/user.selectors';
 }
 
 const mapStateToProps = createStructuredSelector ({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 })
 
 const mapDispatchToProps = dispatch => ({
