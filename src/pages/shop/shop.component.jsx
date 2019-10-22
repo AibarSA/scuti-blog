@@ -8,7 +8,6 @@ import CollectionPageContainer from '../collection/collection.container';
 
 
 import { fetchCollectionsStartAsync} from '../../redux/shop/shop.actions';
-import { selectIsCollectionsLoaded} from '../../redux/shop/shop.selectors';
 
 
 
